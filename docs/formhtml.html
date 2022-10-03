@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registrasi</title>
+</head>
+<body>
+    <form action="contact.php" method="POST">
+        <fieldset>
+        <legend>Registrasi</legend>
+        <p>
+            <label>Name:</label>
+            <input type="text" name="name" placeholder="Full name..." />
+        </p>
+        <p>
+            <label>Username:</label>
+            <input type="text" name="username" placeholder="Username..." />
+        </p>
+        <p>
+            <label>Gender:</label>
+            <label><input type="radio" name="gender" value="Man" /> Man</label>
+            <label><input type="radio" name="gender" value="Women" /> Women</label>
+        </p>
+        <p>
+            <label>Address:</label>
+            <input type="address" name="address" placeholder="Address..." />
+        </p>
+        <p>
+            <label>Country:</label>
+            <select name="country">
+                <option value="indonesia">Indonesia</option>
+                <option value="malaysia">Malaysia</option>
+                <option value="thailand">Thailand</option>
+                <option value="filipina">Filipina</option>
+                <option value="singapura">Singapura</option>
+                <option value="vietnam">Vietnam</option>
+                <option value="brunei darussalam">Brunei Darussalam</option>
+                <option value="laos">Laos</option>
+                <option value="myanmar">Myanmar</option>
+                <option value="kambodja">Kambodja</option>
+            </select>
+        </p>
+        <p>
+            <label>Religion:</label>
+            <select name="religion">
+                <option value="islam">Islam</option>
+                <option value="kristen">Kristen</option>
+                <option value="hindu">Hindu</option>
+                <option value="budha">Budha</option>
+            </select>
+        </p>
+        <p>
+            <label>Email:</label>
+            <input type="email" name="email" placeholder="Your email..." />
+        </p>
+        <p>
+            <label>Password:</label>
+            <input type="password" name="password" placeholder="Password..." />
+        </p>
+        <p>
+            <label>Comment:</label>
+            <textarea name="comment"></textarea>
+        </p>
+        <p>
+            <input type="submit" name="submit" value="Submit" />
+        </p>
+        </fieldset>
+    </form>
+</body>
+</html>
